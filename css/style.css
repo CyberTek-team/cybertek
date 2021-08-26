@@ -1,0 +1,146 @@
+/*  font-family: 'Montserrat', sans-serif;
+    font-family: 'Permanent Marker', cursive; */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-width: 320px;
+    color: #fff;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+
+/* HEADER START */
+
+.navbar-light .navbar-brand {
+    color: rgb(128, 128, 231);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:rgb(128, 128, 231)
+}
+/* CONTENT START----------------------------
+------------------------------------------- */
+
+.content {
+    background-color: #625EF0;
+}
+.intro__subtitle {
+    font-size: 22px;
+    font-style: italic;
+    color: #fff;
+}
+.intro__title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 72px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.intro__desc {
+    width: 85%;
+    font-size: 22px; 
+    color: #fff;
+}
+
+.intro__svg {
+    position: relative;
+}
+
+.logo {
+    width: 300px;
+    position: absolute;
+    right: 308px;
+    top: 208px;
+}
+/* HEADET END */
+
+/* DISCOUNT START----------------------------
+-------------------------------------------- */
+.discount__wrap {
+    max-width: 1340px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.discount {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 16px;
+    margin-top: -70px;
+    padding: 62px 24px 41px 47px;
+    box-shadow: 0px 100px 80px rgb(99 111 129 / 7%), 0px 41.7776px 33.4221px rgb(99 111 129 / 5%), 0px 22.3363px 17.869px rgb(99 111 129 / 4%), 0px 12.5216px 10.0172px rgb(99 111 129 / 4%), 0px 6.6501px 5.32008px rgb(99 111 129 / 3%), 0px 2.76726px 2.21381px rgb(99 111 129 / 2%);
+    margin-bottom: 100px;
+    color: rgb(105, 97, 97);
+}
+
+/* Video START------------------------------------
+------------------------------------------------- */
+
+.whiteblue-bg-bottom {
+    background: linear-gradient(rgba(255, 255, 255, 0) 60%, #5F5AEC 60%);
+}
+
+.videoobzor_wrap {
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+
+.wrap {
+    max-width: 1165px;
+    min-width: 320px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.pb07 {
+    padding-bottom: 0.7em;
+}
+h2 {
+    font-size: 2.824em;
+    line-height: 1.3em;
+}
+h2 {
+    color: #08132F;
+    font-family: 'SFPro-Medium','Arial',sans-serif;
+}
+
+.videoobzor {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+
+.videoobzor iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+}
